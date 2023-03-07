@@ -13,7 +13,7 @@
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
           <li class="dropdown"><a href="#"><span>Execuive Dashboard</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Login</a></li>
+              <li><a href="{{ route('login') }}">Login</a></li>
             </ul>
           </li>
         </ul>
