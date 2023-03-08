@@ -28,7 +28,7 @@
 
     <li class="nav-item {{ request()->is('users') ? 'active' : '' }}">
         <a class="nav-link" href="{{ route('users.index') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-users"></i>
             <span>Users</span></a>
     </li>
 
